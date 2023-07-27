@@ -1,0 +1,43 @@
+.languages {
+    text-align: center;
+    text-decoration: underline;
+    color: #D31717
+}
+
+body, html {
+    background-color: #093354
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+
+.styled-box {
+    border: 2px solid black;
+    width: 430px;
+    padding: 5px;
+    border-radius: 18px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  footer {
+    width: 1000px;
+    padding: 15px;
+    height: 9vh;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .containerFooter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
