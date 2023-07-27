@@ -51,11 +51,11 @@ async function menu() {
 
     switch (choice) {
       case '1':
-        exec('start arizaki.bat');
+        exec('start arizaki.exe');
         break;
       case '2':
         console.log("checking a new version..");
-        exec('node update.js', (error, stdout, stderr) => {
+        exec('start update.exe', (error, stdout, stderr) => {
           if (error) {
             console.error(`Error: ${error.message}`);
           }
@@ -67,11 +67,14 @@ async function menu() {
         break;
         case '4':
           console.log("install..");
-          exec('start installation.bat');
+          exec('start installation.exe');
           break;
           case '5':
             exec('start https://zephyr.cyclic.app/');
             break;
+            case '6':
+              exec('start ');
+              break;
 
         case 'discord':
           console.log("join discord..");
