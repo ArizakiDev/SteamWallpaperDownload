@@ -2,7 +2,7 @@ const request = require('request');
 const fs = require('fs');
 
 const packageJsonUrl = 'https://raw.githubusercontent.com/ArizakiDev/SteamWallpaperDownload/main/package.json';
-const indexJsUrl = 'https://raw.githubusercontent.com/ArizakiDev/SteamWallpaperDownload/main/index.js';
+const indexJsUrl = 'https://raw.githubusercontent.com/ArizakiDev/SteamWallpaperDownload/main/files/index.js';
 const packageJsonPath = './package.json'; 
 const indexJsPath = './files/index.js';
 
